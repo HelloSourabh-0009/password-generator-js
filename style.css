@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #296374;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    max-width: 600px;
+    width: 90%;
+    background-color: #0f333e;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0 0 15px black;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.heading{
+    display: inline-flex;
+    gap: 10px;
+    text-align: start;
+}
+.heading i{
+    font-size: 25px;
+    color: yellow;
+    text-align: left;
+    font-weight:600;
+    margin-top: 25px;
+}
+.heading h1{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 5px;
+}
+.range{
+    margin: auto;
+    padding: 5px;
+}
+.range p{
+    font-weight: 100;
+    margin: 15px;
+}
+.range input{
+    width: 80%;
+    margin: 5px;
+}
+.checkBox{
+    font-weight: 100;
+    padding: 5px;
+    margin: 10px;
+}
+#passBox{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#genBtn{
+    width: 40%;
+    padding: 8px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 0.5rem;
+    background-color:rgb(20, 83, 128);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 100;
+    transition: 0.3s;
+}
+#genBtn:hover{
+    background-color:rgb(26, 115, 180);
+    box-shadow: 0 0 15px black;
+}
+#copyIcon{
+    cursor: pointer;
+}
+#eyeBtn{
+    cursor: pointer;
+}
+.passWord{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.strength-container{
+    width: 100%;
+    height: 8px;
+    background-color:#e0e0e0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.strength-bar{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+#strengthText{
+    font-weight: 100;
+}
